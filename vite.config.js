@@ -34,6 +34,7 @@ export default defineConfig({
             "@": fileURLToPath(new URL("./src", import.meta.url)),
         },
     },
+    //
     server: {
         //api1  易手游
         proxy: {
